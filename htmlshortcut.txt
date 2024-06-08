@@ -1,0 +1,2 @@
+open side preview = cntl + k v
+open browser preview = cntl + F1

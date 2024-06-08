@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <title> User inputs</title>
+        <link rel="stylesheet" href="style.css">
+   </head>
+           
+   <body>
+    <h1><b>Personal Information</b></h1>
+
+    
+    <form>
+        <input type="text" placeholder="Your name" name="user_name"><br>
+
+
+        <b>Enter your Password</b><br>
+        <input type="password" placeholder="Enter your password " name="password"><br>
+
+
+        <b>Enter your Age</b><br>
+        <input type="radio" name="Age" value="11-19"> 11-19
+        <input type="radio" name="Age" value="20=25"> 20-25
+        <input type="radio" name="Age" value="26-29"> 26-30
+        <input type="radio" name="Age" value="30+"> Old as hell<br>
+        
+
+        <b>Enter your Date of Birth</b><br>
+        <input type="date" name="DOB"><br><br>
+
+
+        <b>Enter your Nationality</b><br>
+        <input name="Nationality" list="Nationality" placeholder="Nationality" ><br>
+        
+        <input type="submit">
+
+        <datalist id="Nationality">
+                <option value="Bangladesh"></option>
+                <option value="India"></option>
+                <option value="China"></option>
+                <option value="Indonasia"></option>
+                <option value="Mars"></option>
+
+        
+
+    </form>
+           
+   </body>
+           
+</html>

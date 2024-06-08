@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>tableformypage</title>
+        <style>
+            table{
+                border: 1px solid black;
+            }
+            th, td{
+                padding: 1px;
+                border: 1px solid black;
+            
+            }
+            tr{
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body><table>
+        <thead>
+            <tr>
+            <th>Name of Degree</th>
+            <th> Institution</th>
+            <th> Passing Year</th>
+            <th> Result</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SSC</td>
+                <td><input type="text" placeholder="Enter School" name="ssc_school"></td>
+                <td><input type="text" placeholder="Enter passing year" name="ssc_year"></td>
+                <td><input list="SSC_Result" placeholder="SSC result name="ssc_result">
+                    <datalist id="SSC_Result">
+                        <option value="A+">A+</option>
+                        <option value="A">A</option>
+                        <option value="B+">B+</option>
+                        <option value="B">B</option>
+                        <option value="C+">C+</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="fail">Amar porashuna valo lage na, eijonno fail korsi</option>
+                        
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>HSC</td>
+                <td><input type="text" placeholder="Enter College/HiSchool" name="hsc_college"></td>
+                <td><input type="text" placeholder="Enter passing year" name="hsc_school"></td>
+                <td><input list="HSC_Result" placeholder="HSC result" name="hsc_result">
+                    <datalist id="HSC_Result">
+                        <option value="A+">A+</option>
+                        <option value="A">A</option>
+                        <option value="B+">B+</option>
+                        <option value="B">B</option>
+                        <option value="C+">C+</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="fail">Amar porashuna valo lage na, eijonno fail korsi</option>
+                        
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>BSc</td>
+                <td><input type="text" placeholder="Enter University/College" name="bsc_uni"></td>
+                <td><input type="text" placeholder="Enter passing year" name="BSc_year"></td>
+                <td><input list="BSC_Result" placeholder="BSc result" name="bsc_result">
+                    <datalist id="BSc_Result">
+                        <option value="firstclass">First Class</option>
+                        <option value="secondclass">Second Class</option>
+                        <option value="thirdclass">Third Class</option>
+                        <option value="incomplete">Continuing</option>
+                        <option value="dropout">Poralekha vallage na</option>
+                                            
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><input list="Otherdegrees" placeholder="Any other degrees" name="other_degrees">
+                <datalist id="Otherdegrees">
+                    <option value="I have another">Yes</option>
+                    <option value="I have no other degree">Ar koto porbo!!!! :D</option>
+                </datalist>
+                <td><input type="text" placeholder="Enter Institute" name="other_institute"></td>
+                <td><input type="text" placeholder="Enter passing year" name="other_degree_year"></td>
+                <td><input list="Other_Degree_Result" placeholder="Other Degree Result" name="other_result">
+                    <datalist id="Other_Degree_Result">
+                        <option value="Passed"></option>
+                        <option value="N/A"></option>
+                                                
+                    </datalist>
+                </td>
+        </tbody>
+        </table>
+    </body>
+</html>
